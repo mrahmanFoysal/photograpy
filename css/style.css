@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    vertical-align: middle;
+}
+.clr{
+    clear: both;
+}
+.main{
+    width: 100%;
+    padding: 30px 0;
+    position: absolute;
+    background-color: rgba(0,0, 0, 0.439)
+    
+}
+.container{
+    width: 1120px;
+    margin: 0 auto;
+}
+.logo{
+    width: 30%;
+    float: left;
+}
+/* menu part start */ 
+.menu{
+    width: 70%;
+    float: left;
+}
+.menu ul{
+    text-align: right;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    padding: 0 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 16px;
+}
+.menu ul li a:hover{
+    background-color: cornflowerblue;
+}
+.menu ul li:last-child a{
+    border-right: 2px solid red;
+}
+/* menu part end /*
+/* banner part start */
+.banner{
+    background: url(../images/cam.jpg) no-repeat  center / cover;
+    font-size: 50px;
+   padding: 300px 0;
+}
+.banner-text{
+    text-align: center;
+}
+.banner-text h3{
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+}
+.banner-text h1{
+    color: #fff;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.banner-text p{
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+.banner-text i{
+    color: #fff;
+}
+
+/* banner part emd */
+/* offer part start */
+.offer{
+    padding: 80px 0;
+
+}
+.offer-head{
+    text-align: center;
+}
+.offer-head h3{
+    color: #444444;
+    font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    padding-bottom: 30px;
+}
+.offer-head h5{
+    padding-bottom: 50px;
+}
+.offer-head h6{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #444444;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+}
+.offer-img{
+    background-color: #444444;
+}
+.offer-item{
+    width: 33.33%;
+   float: left;
+}
+.offer-inner{
+    padding: 15px;
+}
+.offer-inner img{
+    width: 100%;
+}
+.offer-inner h3{
+    text-align: center;
+    padding-top: 25px;
+}
+.offer-inner p{
+    text-align: center;
+}
+/* offer part end */
+/* latest part start */
+.latest{
+    padding: 50px 0;
+    background-color: #444444;
+}
+.latest-head{
+    text-align: center;
+}
+.latest-head h3{
+    position: relative;
+    display: inline-block;
+}
+.latest-head h3::after{
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 100px;
+    background-color: #fff;
+    top: 10px;
+    left: -103px;
+}
+.latest-head h3::before{
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 100px;
+    background-color: #fff;
+    bottom: 9px;
+    right: -106px;
+}
+.latest-img{
+    padding: 30px 0;
+}
+.latest-item{
+    width: 25%;
+    float: left; 
+}
+.latest-item img{
+    width: 100%;
+}
+.latest-btn{
+    text-align: center;
+}
+.latest-btn a{
+    border: 2px solid #fff;
+    padding: 20px 30px;
+    color: #fff;
+}
+.latest-btn i{
+    padding-right: 10px;
+}
+/* latest part end */
+/* journal part start */
+.journal{
+    padding: 75px 0;
+}
+.journal-item{
+    width: 30.33%;
+    float: left;
+    margin: 0 10px;
+}
+.journal-inner{
+    border: 1px solid palevioletred;
+    text-align: center;
+}
+.journal-inner img{
+    width: 100%;
+}
+.journal-bottom{
+    padding: 20px 0;
+}
+.journal-left{
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+.journal-left h4{
+    border-bottom: 2px solid goldenrod;
+    display: inline-block;
+}
+.journal-right{
+    width: 50%;
+    float: left;
+}
+.journal-right h2{
+    text-align: right;
+}
+.journal-right i{
+    font-size: 14px;
+}
+/* journal part end */
+/* about part start */
+.about-img{
+    width: 50%;
+    float: left;
+}
+.about-left{
+    width: 65%;
+    float: left;
+}
+.about-lef imgt{
+    width: 100%;
+}
+.about-right{
+    width: 35%;
+    float: left;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+.about-right h4{
+    padding-top: 100px;
+}
+.about-right h5{
+    padding-top: 30px;
+}
+.about-icon{
+    width: 50%;
+    float: left;
+}
+.ser-icon{
+    padding-left: 50px;
+    position: relative;
+}
+.ser-icon h4{
+    margin-top: 50px;
+}
+.ser-icon i{
+    position: absolute;
+    top: 19px;
+    left: 15px;
+    font-size: 20px;
+}
+/* about part end */
+/* another part start */
